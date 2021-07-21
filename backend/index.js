@@ -6,8 +6,8 @@ const User = require('./models/user');
 const jwt = require('jsonwebtoken');
 const { PossibleFragmentSpreadsRule } = require('graphql');
 
-const MONGODB_URI = "mongodb+srv://fullstack:UhxHwB8vnPgR4jvF@cluster0.pllda.mongodb.net/phonebook-ql?retryWrites=true&w=majority";
-const JWT_SECRET = "TOP_SECRET_STRING";
+const MONGODB_URI = process.env.DB_URL;
+const JWT_SECRET = process.env.JWT_PASS;
 const pubsub = new PubSub();
 
 console.log('connecting to ', MONGODB_URI);
