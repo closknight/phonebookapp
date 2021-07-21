@@ -1,0 +1,19 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Learn graphQL",
+  "main": "index.js",
+  "author": "carlos",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "apollo-server": "^2.18.2",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "subscriptions-transport-ws": "^0.9.18",
+    "uuid": "^8.3.1"
+  }
+}
